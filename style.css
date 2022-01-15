@@ -116,5 +116,31 @@
     .fa-star.filled,.fa-star-half-alt{
         font-size:10px;
     }
+    footer{
+        border: 1px solid;
+        height: 200px;
+        margin: 0px 5px;
+        padding-top: 30px;
+        text-align: center;
+        font-size: medium;
+        background-color: #130f40;
+        color: whitesmoke; 
+    }
+    footer div{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    footer p{
+        font-weight:300 ;
+    }
+    .fa-instagram-square {
+        margin-right: 10px;
+    }
+    .fa-twitter-square{
+        margin-right: 10px;
+    }
+    .fa-facebook{
+        margin-left: 8px;
+    }
   
   

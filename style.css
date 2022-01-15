@@ -100,27 +100,25 @@
 
     /* main banner side */
     
-    .main-banner{
+    .main-item{
         display: grid;
         grid-template-columns:repeat(3,1fr);
         align-items: center;
 
-        
     }
-    .banner-feature{
-        border: 1px solid;
+    .item-feature{
+        border:none;
         border-radius: 8px;
        box-shadow:10px 10px 15px 15px grey;
-        width: 81%;
+        width: 80%;
         align-items:flex-start;
         max-width: 1200px;
         margin-left: 45px;
         margin-top: 50px;
-        padding-left: 3px;
-        
-       
-        
+        padding-left:2px ;
+        padding-top: 2px;
     }
+    
     .item-heading{
         text-align: center;
         margin-top: 50px;
@@ -155,9 +153,6 @@
         margin-top: 10px;
         padding:5px 15px;
         font-size: 20px;
-    
-        
-    
     }
     .end-button a{
         color: whitesmoke;
@@ -192,5 +187,26 @@
     .fa-facebook{
         margin-left: 8px;
     }
+     
+    /* media Queery */
+     @media only screen and (min-width:688px ) and (max-width:992){ 
+         .container{
+             width: 100%;
+         }
+         .banner{
+            
+             grid-template-columns: repeat(1,1fr);
+            
+         }
+         .main-item .item-feature{
+            grid-template-columns: repeat(2,1fr);
+         }
+         .end-section{
+            grid-template-columns: repeat(1,1fr);
+         }
+
+     }
+        
+    
   
   
